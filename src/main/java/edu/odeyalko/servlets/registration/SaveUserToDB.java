@@ -20,7 +20,7 @@ public class SaveUserToDB {
         Connection conn = null;
         String url = "jdbc:postgresql://localhost/";
         String user = "postgres";
-        String password = "vfrcrhjc";
+        String password = "password";
         try {
             Class.forName("org.postgresql.Driver");
             conn = DriverManager.getConnection(url, user, password);
